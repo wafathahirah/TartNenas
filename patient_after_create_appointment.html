@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<title>BOOK APPOINTMENT</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="patient_create_appoinment.css">
+<body>
+    <h1><strong>BOOKING SUCCESSfUL</strong></h1>
+    <p>PLEASE COME TO THE CLINIC ON THE RIGHT TIME. <br>THANK YOU</p>
+    <form name="patient_book_appointment" method="post" >
+        <table width="40%"  align="center">
+          <tr><td width="20%">DATE</td></tr>
+            <tr><td><input type="date" name="date" value=""/></td>  
+          </tr>  
+          <tr><td width="20%">TIME</td></tr>
+        <tr><td><input type="time" name="time" value=""/></td></tr>
+        <tr><td>DEPARTMENT</td></tr>
+          <tr>  <td>
+          <select name="department" style="height: auto">
+            <option disabled="disabled" selected="selected">CHOOSE THE DEPARTMENT</option>
+            <!-- ?php     
+          if ($row['product_status']=='1') {
+            echo "<option value='1' selected> Available </option>";
+            echo "<option value='2'> Not Available </option>";
+            }
+          else if ($row['product_status']=='2'){
+            echo "<option value='1'> Available </option>";
+            echo "<option value='2' selected> Not Available </option>";
+          }
+
+      ?> -->
+          </select>   
+        </td>
+          </tr>
+          <tr> 
+            <td colspan="2">
+        </td>
+          </tr>   
+         
+        
+        </table>
+    </form>
+</body>
+

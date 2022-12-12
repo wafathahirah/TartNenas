@@ -1,0 +1,87 @@
+body{
+    margin: 100PX;
+}
+TABLE{
+    width: 100%;
+}
+table, td, th
+{
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 12px;
+}
+
+table.center 
+{
+    margin-top: 220px;
+}
+
+.buttonview
+{
+    background-color: #e9ac20;
+    border-radius: 5px;
+    border: 0px;
+    width: 60px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.buttonview:hover 
+{
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid #e9ac20;
+}
+
+form.search input[type=text] {
+    margin-top: 55px;
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 80%;
+    background: #ffffff;
+    max-width:300px
+}
+
+form.search button {
+    margin-top: 55px;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    border: none ;
+    cursor: pointer;
+    max-width:30px
+
+}
+
+
+form.search::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.buttoncalendar {
+    background-color: #e9ac20;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    text-align: center;
+    font-size: 13px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 70%;
+    cursor: pointer;
+    border: none;
+}
+.buttoncalendar:hover 
+{
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid #e9ac20;
+}

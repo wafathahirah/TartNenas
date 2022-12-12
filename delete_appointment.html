@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<title>BOOK APPOINTMENT</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="view_appointment.css">
+
+<body>
+<h1>DELETE APPOINTMENT</h1>
+  <div class="row">
+    <div class = "column">
+  <form class="form" method="post">
+    <table width="100%">
+      <tr>
+        <td width="20%">ID NO </td>
+      </tr>
+      <TR>
+        <TD><input DISABLED name="time" value="20222" /></TD>
+      </TR>
+      <tr>
+        <td width="20%">NAME</td>
+      <tr>
+        <td><input disabled name="name" value="name" /></td>
+      </tr>
+      <tr>
+        <td width="20%">APPOINTMENT ID</td>
+      </tr>
+      <tr>
+        <td><input disabled name="appointment_id" value="2230" /></td>
+      </tr>
+      <tr>
+        <td>DATE</td>
+      </tr>
+      <tr>
+        <td>
+          <input disabled name="date" value="24-08-2001">
+        </td>
+      </tr>
+
+      <!-- ?php     
+          if ($row['product_status']=='1') {
+            echo "<option value='1' selected> Available </option>";
+            echo "<option value='2'> Not Available </option>";
+            }
+          else if ($row['product_status']=='2'){
+            echo "<option value='1'> Available </option>";
+            echo "<option value='2' selected> Not Available </option>";
+          }
+
+      ?> -->
+      </tr>
+    </table>
+  </form>
+    </div>
+    <div class = "column">
+  <form class="form" method="post">
+    <table width="100%">
+      <tr>
+        <td width="20%">TIME </td>
+      </tr>
+      <TR>
+        <TD><input DISABLED name="time" value="2230" /></TD>
+      </TR>
+      <tr>
+        <td width="20%">DEPARTMENT </td>
+      </tr>
+      <TR>
+        <TD><input DISABLED name="department" value="gigi" /></TD>
+      </TR><tr>
+        <td width="20%">DOCTOR INCHARGE </td>
+      </tr>
+      <TR>
+        <TD><input DISABLED name="doc_incharge" value="DR WAFA" /></TD>
+      </TR>
+      
+    </table>
+  </form></div>
+  <button type="submit" class="button buttonedit" id="save_appointment">SAVE</button>
+  <button type="submit" class="button buttonedit" id="delete_appointment">DELETE</button>
+
+
+</body>
+
+</html>
